@@ -22,6 +22,12 @@ body {
     font-size: 15px !important;
 }
 
+.form-control:focus {
+    border-color: #DEE2E6;
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem #92929286;
+}
+
 .img-nav {
     border-radius: 100%;
     -o-border-radius: 100%;
@@ -36,4 +42,70 @@ body {
     padding-right: 8px;
     font-size: 25px;
     vertical-align: middle;
+}
+
+.img-profile {
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.username {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.button-edit {
+    color: black !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    border-color: #dae1e7 !important;
+    background-color: #fafafa;
+    margin-top: 7px;
+}
+
+.button-edit:hover {
+    background-color: #eeeeee !important;
+}
+
+.button-edit:focus-visible {
+    background-color: #fafafa !important;
+    box-shadow: none !important;
+}
+
+.btn {
+    padding: .100rem .50rem !important;
+}
+
+.profile-datas {
+    font-size: 16px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.bi-search {
+    position: relative;
+    right: 160px;
+    color: #585B5E !important;
+    cursor: text;
+}
+
+.left-align {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 16px;
+    display: inline;
+    font-weight: 600 !important;
+}
+
+.profile-desc {
+    font-size: 16px;
 }
