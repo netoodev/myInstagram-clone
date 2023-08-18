@@ -30,21 +30,25 @@
                     </input>
                 </form>
                 <div style="max-width: 30%; cursor: pointer;">
-                <i class="bi bi-house-door icons"></i>
-                <i class="bi bi-inbox icons"></i>
-                <i class="bi bi-compass icons"></i>
-                <i class="bi bi-heart icons"></i>
-                <img src="images/profile_picture.jpg" alt="Foto de Perfil" class="img-nav">
+                    <i class="bi bi-house-door icons"></i>
+                    <i class="bi bi-inbox icons"></i>
+                    <i class="bi bi-compass icons"></i>
+                    <i class="bi bi-heart icons"></i>
+                    <img src="images/profile_picture.jpg" alt="Foto de Perfil" class="img-nav">
                 </div>
             </div>
         </nav>
     </header>
+    <!-- End Nav -->
 
+    <!-- Main -->
     <section>
         <div class="container text-center">
             <div class="row">
               <div class="col-0 col-md-2"></div>
               <div class="col-12 col-md-8">
+
+                <!-- Profile -->
                 <div class="container">
                     <div class="row" style="padding-top: 20px;">
                         <div class="col-3">
@@ -87,18 +91,76 @@
                       </div>
                     </div>
 
+
+                    <!-- Stories -->
                     <div style="padding-top: 0;">
                         <div class="row">
-                            <div class="col-2"><canvas id="myCrl"></canvas></div>
-                            <div class="col-2"><canvas id="myCrl1"></canvas></div>
-                            <div class="col-2"><canvas id="myCrl2"></canvas></div>
+                            <div class="col-2"> <canvas id="myCrl"></canvas></div>
+                            <div class="col-2"> <canvas id="myCrl1"></canvas></div>
+                            <div class="col-2"> <canvas id="myCrl2"></canvas></div>
                         </div>
                     </div>
                     <div style="padding-bottom: 40px;">
                         <div class="row">
-                            <div class="col-2 stories"> Eventos</div>
-                            <div class="col-2 stories"> Programação</div>
-                            <div class="col-2 stories"> Porto Digital</div>
+                            <div class="col-2 stories"> Checklist</div>
+                            <div class="col-2 stories"> Youtube</div>
+                            <div class="col-2 stories"> Developer</div>
+                        </div>
+                    </div>
+
+                    <!-- Line -->
+                    <hr size="3" width="100%" color="#EEEEEE" style="margin: 0%;">
+
+                    <!-- Nav-Feed -->
+                    <ul class="nav nav-tabs nav-feed">
+                        <li class="nav-item">
+                          <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICAÇÕES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> MARCADOS</a>
+                        </li>
+                    </ul>
+
+                    <!-- Card-Feed -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                            <div class="row" style="padding-bottom: 25px;">
+                                <div class="col-4">
+                                    <div class="card cursor">
+                                        <img src="images/post1.png" alt="..." class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card cursor">
+                                        <img src="images/post2.jpg" alt="..." class="card-img-top">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="card cursor">
+                                        <img src="images/post3.jpg" alt="..." class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-bottom: 25px;">
+                                <div class="col-4">
+                                    <div class="card cursor">
+                                        <img src="images/post4.png" alt="..." class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="tag-content">
+                                <div class="circle">
+                                    <i class="bi bi-file-person tag-icon"></i>
+                                </div>
+                                <div class="tag-text">
+                                    <h2>Nenhuma Foto</h2>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
