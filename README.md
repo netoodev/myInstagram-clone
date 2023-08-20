@@ -6,8 +6,6 @@ ___
 
 Esse projeto consiste em um clone do meu perfil do instagram (<a href="https://www.instagram.com/netoodev" target="_blank">**@netoodev**</a>) para a realização da atividade da <a href="https://www.linkedin.com/showcase/resid%C3%AAncia-onboard/">**Residência OnBoard - Porto Digital**</a>.
 
-<img style="max-width: 600px" src="images/clone-insta.png" alt="Captura de tela do projeto">
-
 ### Visualizar projeto
 
 Você pode ver meu projeto através desse link:
